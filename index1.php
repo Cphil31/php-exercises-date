@@ -30,6 +30,18 @@
 		echo 'exercice 3: '.strftime("%A %B %G");
 		?> 
 	</div>
+
+	<div>
+		<?php
+		echo 'exercice 4: '.'le timestamp d aujourd hui est : '.strftime("%A %B %G").'.'; 
+		?>
+		<div>
+		<?php 
+		echo 'le timestamp le '.strftime("%d %B %g",mktime(0,0,0,8,2,2016)).'h'.strftime("%H",mktime(15,0,0,0,0,0)).".";
+		 ?>
+		</div> 
+		
+	</div>
 </body>
 </html>
 
